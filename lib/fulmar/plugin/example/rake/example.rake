@@ -1,4 +1,4 @@
 desc 'Example task'
 task :example do
-  info 'Doing example stuff...'
+  info example_text
 end

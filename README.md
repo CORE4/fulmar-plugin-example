@@ -1,38 +1,27 @@
 # Fulmar::Plugin::Example
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fulmar/plugin/example`. To experiment with that code, run `bin/console` for an interactive prompt.
+You want to develop your own fulmar plugin? Great! This gem is an example on how to build a fulmar plugin.
 
-TODO: Delete this and the text above, and describe your gem
+A plugin needs to implement at least the Configuration class within the Fulmar::Plugin::YourName namespace. You can
+add methods available in the tasks by putting them into the dsl_helper.rb. You can supply globally available tasks in
+the rake files.
+
+Please feel free to ask for help.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'fulmar-plugin-example'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fulmar-plugin-example
+Since this is an example gem, it is not actually available in the rubygems repository. Hopefully. :)
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Have a look at the code, build your own plugin and don't forget to search for all appearances of "example" before
+publishing.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fulmar-plugin-example. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fulmar-plugin-example.
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to
+adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
