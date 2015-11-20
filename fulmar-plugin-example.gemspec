@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Example plugin for fulmar'
   spec.description   = 'Use this gem as a basic example how to develop a plugin for fulmar. It implements the basic' +
                        'methods to create valid plugin.'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/CORE4/fulmar-plugin-example'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -19,7 +19,7 @@ publishing.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fulmar-plugin-example.
+Bug reports and pull requests are welcome on GitHub at https://github.com/CORE4/fulmar-plugin-example.
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to
 adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
